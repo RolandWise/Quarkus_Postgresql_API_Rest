@@ -1,1 +1,25 @@
-{}
+quarkus:
+  banner:
+    enabled: false
+  hibernate-orm:
+    database:
+      generation: none
+  swagger-ui:
+    always-include: true
+    operations-sorter: method
+
+mp:
+  openapi:
+    extensions:
+      smallrye:
+        info:
+          title: Customer API
+          version: 0.0.1
+          description: API pour la gestion des clients
+          contact:
+            email: okouby@gmail.com
+            name: Roland Okoubi Michel
+            url: https://github.com/quarkus-ground-up/customer-api
+          license:
+            name: Apache 2.0
+            url: http://www.apache.org/licenses/LICENSE-2.0.html

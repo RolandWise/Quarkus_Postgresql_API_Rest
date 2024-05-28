@@ -1,4 +1,4 @@
-package com.redhat.api;
+package com.okoubi.api;
 
 public interface Roles {
     String CUSTOMER_READ = "CUSTOMER_READ";
